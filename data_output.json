@@ -1,0 +1,267 @@
+{
+    "data": [
+        {
+            "path": "input_images_source_1/raccoon-3.jpg",
+            "filename": "raccoon-3.jpg",
+            "image_height": 480,
+            "image_width": 720,
+            "label_area_perc": 0.9882089120370371,
+            "labels": [
+                {
+                    "xmin": 0.001388888888888889,
+                    "ymin": 0.0020833333333333333,
+                    "xmax": 1.0,
+                    "ymax": 0.9916666666666667,
+                    "label": "Raccoon",
+                    "width_to_height": 1.0091228070175438
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_1/raccoon-6.jpg",
+            "filename": "raccoon-6.jpg",
+            "image_height": 360,
+            "image_width": 480,
+            "label_area_perc": 0.4816666666666667,
+            "labels": [
+                {
+                    "xmin": 0.0020833333333333333,
+                    "ymin": 0.12222222222222222,
+                    "xmax": 0.6395833333333333,
+                    "ymax": 0.8777777777777778,
+                    "label": "Raccoon",
+                    "width_to_height": 0.84375
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_1/raccoon-107.jpg",
+            "filename": "raccoon-107.jpg",
+            "image_height": 622,
+            "image_width": 500,
+            "label_area_perc": 0.5736623794212218,
+            "labels": [
+                {
+                    "xmin": 0.33,
+                    "ymin": 0.0819935691318328,
+                    "xmax": 0.992,
+                    "ymax": 0.9485530546623794,
+                    "label": "Raccoon",
+                    "width_to_height": 0.7639406307977735
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_1/raccoon-112.jpg",
+            "filename": "raccoon-112.jpg",
+            "image_height": 574,
+            "image_width": 800,
+            "label_area_perc": 0.545548780487805,
+            "labels": [
+                {
+                    "xmin": 0.16375,
+                    "ymin": 0.30313588850174217,
+                    "xmax": 0.96875,
+                    "ymax": 0.980836236933798,
+                    "label": "Raccoon",
+                    "width_to_height": 1.1878406169665807
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_1/raccoon-116.jpg",
+            "filename": "raccoon-116.jpg",
+            "image_height": 432,
+            "image_width": 660,
+            "label_area_perc": 0.6515046296296297,
+            "labels": [
+                {
+                    "xmin": 0.004545454545454545,
+                    "ymin": 0.0023148148148148147,
+                    "xmax": 0.6606060606060606,
+                    "ymax": 0.9953703703703703,
+                    "label": "Raccoon",
+                    "width_to_height": 0.6606484424666244
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_3/raccoon-165.jpg",
+            "filename": "raccoon-165.jpg",
+            "image_height": 253,
+            "image_width": 199,
+            "label_area_perc": 0.7197846942220988,
+            "labels": [
+                {
+                    "xmin": 0.13316582914572864,
+                    "ymin": 0.041501976284584984,
+                    "xmax": 0.9723618090452262,
+                    "ymax": 0.8992094861660079,
+                    "label": "Raccoon",
+                    "width_to_height": 0.9784174327860501
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_3/raccoon-168.jpg",
+            "filename": "raccoon-168.jpg",
+            "image_height": 314,
+            "image_width": 628,
+            "label_area_perc": 0.547228082275143,
+            "labels": [
+                {
+                    "xmin": 0.15605095541401273,
+                    "ymin": 0.2786624203821656,
+                    "xmax": 0.5955414012738853,
+                    "ymax": 0.9633757961783439,
+                    "label": "Raccoon",
+                    "width_to_height": 0.6418604651162791
+                },
+                {
+                    "xmin": 0.2754777070063694,
+                    "ymin": 0.0031847133757961785,
+                    "xmax": 0.75,
+                    "ymax": 0.9840764331210191,
+                    "label": "Raccoon",
+                    "width_to_height": 0.4837662337662338
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_3/raccoon-173.jpg",
+            "filename": "raccoon-173.jpg",
+            "image_height": 388,
+            "image_width": 550,
+            "label_area_perc": 0.5368228678537957,
+            "labels": [
+                {
+                    "xmin": 0.3663636363636364,
+                    "ymin": 0.05412371134020619,
+                    "xmax": 0.9354545454545454,
+                    "ymax": 0.9974226804123711,
+                    "label": "Raccoon",
+                    "width_to_height": 0.6032985593641331
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_3/raccoon-184.jpg",
+            "filename": "raccoon-184.jpg",
+            "image_height": 640,
+            "image_width": 640,
+            "label_area_perc": 0.64072265625,
+            "labels": [
+                {
+                    "xmin": 0.1265625,
+                    "ymin": 0.1203125,
+                    "xmax": 0.8859375,
+                    "ymax": 0.9640625,
+                    "label": "Raccoon",
+                    "width_to_height": 0.9
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_3/raccoon-189.jpg",
+            "filename": "raccoon-189.jpg",
+            "image_height": 450,
+            "image_width": 600,
+            "label_area_perc": 0.7896444444444444,
+            "labels": [
+                {
+                    "xmin": 0.030833333333333334,
+                    "ymin": 0.0044444444444444444,
+                    "xmax": 0.8458333333333333,
+                    "ymax": 0.9733333333333334,
+                    "label": "Raccoon",
+                    "width_to_height": 0.8411697247706421
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_2/raccoon-125.png",
+            "filename": "raccoon-125.png",
+            "image_height": 195,
+            "image_width": 259,
+            "label_area_perc": 0.8707256707256708,
+            "labels": [
+                {
+                    "xmin": 0.05019305019305019,
+                    "ymin": 0.03076923076923077,
+                    "xmax": 0.972972972972973,
+                    "ymax": 0.9743589743589743,
+                    "label": "Raccoon",
+                    "width_to_height": 0.9779461138156791
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_2/raccoon-132.png",
+            "filename": "raccoon-132.png",
+            "image_height": 194,
+            "image_width": 259,
+            "label_area_perc": 0.6007642399394979,
+            "labels": [
+                {
+                    "xmin": 0.023166023166023165,
+                    "ymin": 0.010309278350515464,
+                    "xmax": 0.9266409266409267,
+                    "ymax": 0.6752577319587629,
+                    "label": "Raccoon",
+                    "width_to_height": 1.3587141959234983
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_2/raccoon-153.png",
+            "filename": "raccoon-153.png",
+            "image_height": 700,
+            "image_width": 700,
+            "label_area_perc": 0.8587714285714287,
+            "labels": [
+                {
+                    "xmin": 0.014285714285714285,
+                    "ymin": 0.0014285714285714286,
+                    "xmax": 0.8742857142857143,
+                    "ymax": 1.0,
+                    "label": "Raccoon",
+                    "width_to_height": 0.861230329041488
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_2/raccoon-154.png",
+            "filename": "raccoon-154.png",
+            "image_height": 419,
+            "image_width": 650,
+            "label_area_perc": 0.3929135303836975,
+            "labels": [
+                {
+                    "xmin": 0.2276923076923077,
+                    "ymin": 0.13365155131264916,
+                    "xmax": 0.7953846153846154,
+                    "ymax": 0.8257756563245824,
+                    "label": "Raccoon",
+                    "width_to_height": 0.8202175066312997
+                }
+            ]
+        },
+        {
+            "path": "input_images_source_2/raccoon-159.png",
+            "filename": "raccoon-159.png",
+            "image_height": 223,
+            "image_width": 226,
+            "label_area_perc": 0.8708678915829994,
+            "labels": [
+                {
+                    "xmin": 0.061946902654867256,
+                    "ymin": 0.04932735426008968,
+                    "xmax": 0.9867256637168141,
+                    "ymax": 0.9910313901345291,
+                    "label": "Raccoon",
+                    "width_to_height": 0.9820269700800675
+                }
+            ]
+        }
+    ]
+}
