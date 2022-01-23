@@ -1,5 +1,5 @@
 #imports
-from importlib.metadata import metadata
+from stat import filemode
 import tensorflow as tf
 import tensorflow_datasets as tfds
 import pathlib
@@ -8,17 +8,23 @@ import re
 import matplotlib.pyplot as plt
 from PIL import Image
 import cv2 
+import datetime
+import logging  
+
+############################################################ LOGS ############################################################ 
+FORMAT = '%(asctime)s %(class)s %(function)s %(info)s %(message)s'  #Timestamp Class FunctionName AnythingExtraRelevant: Log message
+default = {'class': 'class_undefined', 'function': 'function_undefined', 'info': 'No extra information'}
+logging.basicConfig(
+            level=logging.INFO,
+            format=FORMAT,  
+            handlers=[
+                logging.FileHandler("processing.log"),
+                logging.StreamHandler()
+            ]) 
+logger=logging.getLogger()  
 
 
-
-def label_perc_temp(height,width,labels):
-    l_size=0
-    for l in labels:
-        l_size +=((l['xmax']-l['xmin'])*width)*((l['ymax']-l['ymin'])*height)
-    return l_size/(height*width)
-
-def width_to_height_temp(xmin,xmax,ymin,ymax):
-    return (xmax-xmin)/(ymax-ymin)
+############################################################################################################################## 
 
 
 ############################################################ METADATA ############################################################ 
@@ -134,7 +140,9 @@ def process_source3(metadata, data):
     return metadata
 
 def process_sources(metadata, data, source_type):
-    print("Processing source" , source_type)
+    #log_source = Log('process_sources', 'Processing Source ' + str(source_type))
+    #log_source.print_log()
+    logger.info('Log: %s', 'Processing Source ' + str(source_type), extra=default|{'function': 'process_sources'})
     if source_type == 1:
         return process_source1(metadata, data)
     elif source_type == 2:
@@ -144,6 +152,9 @@ def process_sources(metadata, data, source_type):
 
 
 def process_metadata():
+    #log_metadata = Log('process_metadata', 'Processing Metadata')
+    #log_metadata.print_log()
+    logger.info('Log: %s', 'Processing Metadata', extra=default|{'function': 'process_metadata'})
     metadata = {}
     sources = glob.glob("./sources/input_images_source*") 
     for source in sources:
@@ -155,6 +166,9 @@ def process_metadata():
     return metadata
 
 def save_metadata(metadata):
+    #log_metadata = Log('save_metadata', 'Saving Metadata')
+    #log_metadata.print_log()
+    logger.info('Log: %s', 'Saving Metadata', extra=default|{'function': 'save_metadata'})
     metadata_out = {}
     metadata_out['data'] = list(metadata.values())
     with open('data_output.json', 'w') as fp:
@@ -173,6 +187,9 @@ def check_for_intersections(labels,w,h):
     return intersection_perc
 
 def label_perc(metadata):
+    #log_metadata = Log('label_perc', 'Calculating percentage of the total area of the image occupied by labels')
+    #log_metadata.print_log()
+    logger.info('Log: %s', 'Calculating percentage of the total area of the image occupied by labels', extra=default|{'function': 'label_perc'})
     for img in metadata:
         labels= metadata[img]['labels']
         l_size=0
@@ -182,6 +199,9 @@ def label_perc(metadata):
         metadata[img]['label_area_perc'] = (l_size - intersections)/(metadata[img]['image_height']*metadata[img]['image_width'])
 
 def plot_distribution(ratio_dist):
+    #log_plot = Log('plot_distribution', 'Plot the distribution of the output')
+    #log_plot.print_log()
+    logger.info('Log: %s', 'Plot the distribution of the output', extra=default|{'function': 'plot_distribution'})
     plt.figure(figsize=(5,4)) 
     plt.style.use('seaborn-whitegrid') 
     plt.hist(ratio_dist, bins=90, facecolor = '#2ab0ff', edgecolor='#169acf', linewidth=0.5)
@@ -191,6 +211,9 @@ def plot_distribution(ratio_dist):
     plt.savefig('dist.png')
 
 def width_to_height(metadata):
+    #log_width_to_height = Log('plot_distribution', 'Calculating label width-to-height ratio of all the labels')
+    #log_width_to_height.print_log()
+    logger.info('Log: %s', 'Calculating label width-to-height ratio of all the labels', extra=default|{'function': 'width_to_height'})
     ratio_dist = []
     for img in metadata:
         labels= metadata[img]['labels']
@@ -239,6 +262,9 @@ def merge_orgimg_info(config_file_path):
     return img_info
     
 def draw_labels(img_info):
+    #log_draw_labels = Log('draw_labels', 'Drawing Lables')
+    #log_draw_labels.print_log()
+    logger.info('Log: %s', 'Drawing Lables', extra=default|{'function': 'draw_labels'})
     for path in img_info:
         image = cv2.imread(path)
         info = img_info[path]['info']
@@ -255,6 +281,9 @@ def draw_labels(img_info):
     return img_info
 
 def crop_labels(img_info):
+    #log_crop_labels = Log('crop_labels', 'Cropping Lables')
+    #log_crop_labels.print_log()
+    logger.info('Log: %s', 'Cropping Lables', extra=default|{'function': 'crop_labels'})
     for path in img_info:
         im = Image.open(path)
         info = img_info[path]['info']
@@ -274,7 +303,32 @@ def crop_labels(img_info):
            
     return img_info
 
+def add_padding(img_info):
+    #log_add_padding = Log('add_padding', 'Add padding')
+    #log_add_padding.print_log()
+    logger.info('Log: %s', 'Adding padding', extra=default|{'function': 'add_padding'})
+    for path in img_info:
+        for img in img_info[path]['img_croped']:   
+            new_width = 300
+            new_height = 300
+            img_aux = img.copy()
+            img_aux.thumbnail((new_width, new_height), Image.ANTIALIAS)
+            width, height = img_aux.size         
+            left = int(150-width/2)
+            top = int(150-height/2)
+            result = Image.new(img_aux.mode, (new_width, new_height), (0, 0, 0))
+    
+            result.paste(img_aux, (left, top))
+            if ('final_img' in img_info[path]):
+                img_info[path]['final_img'].append(result) 
+            else:
+                img_info[path]['final_img'] = [result]
+    return img_info
+
 def save_imgs(img_draw, config_file_path):
+    #log_save_imgs = Log('save_imgs', 'Saving images')
+    #log_save_imgs.print_log()
+    logger.info('Log: %s', 'Saving images', extra=default|{'function': 'save_images'})
     with open(config_file_path) as config_file:
         config = json.load(config_file)
 
@@ -285,20 +339,34 @@ def save_imgs(img_draw, config_file_path):
         path_img= './'+str(output_folder)+ '/'+ str(count) +'.jpeg'
         img_draw[img]['img_draw'].save(path_img, format="jpeg")
         count+=1
-    count=16
-    for img in img_draw:
-        print(img_draw[img]['img_croped'])
         for img_croped in img_draw[img]['img_croped']:
             path_img= './'+str(output_folder)+ '/'+ str(count) +'.jpeg'
-            print(img_croped)
+            img_croped.save(path_img, format="jpeg")
+            count+=1
+        for img_croped in img_draw[img]['final_img']:
+            path_img= './'+str(output_folder)+ '/'+ str(count) +'.jpeg'
             img_croped.save(path_img, format="jpeg")
             count+=1
 
-################################################################################################################################ 
+        
+def sliding_window(config_file_path):
+    ds = tf.keras.utils.image_dataset_from_directory("./sources")
+    print(ds.class_names)
+    plt.figure(figsize=(150, 150))
+    for images, labels in ds.take(1):
+        for i in range(4):
+            ax = plt.subplot(15, 1, i + 1)
+            plt.imshow(images[i].numpy().astype("uint8"))
+            plt.title(ds.class_names[labels[i]])
+            plt.axis("off")
+    plt.savefig('ola.png')
+
+############################################################################################################################## 
 
 
 ############################################################ MAIN ############################################################
 def main():
+    initial_time = datetime.datetime.now()   
     config_file_path = "./config.json"
     metadata = process_metadata()
     label_perc(metadata)
@@ -307,8 +375,11 @@ def main():
     img_info = merge_orgimg_info(config_file_path)
     img_info_draw = draw_labels(img_info)
     img_crop = crop_labels(img_info_draw)
-    save_imgs(img_crop, config_file_path)
-    
+    final_img = add_padding(img_crop)
+    save_imgs(final_img, config_file_path)
+    #sliding_window(config_file_path)
+    final_time = datetime.datetime.now()
+    print("Total time to run the script: ", (final_time -initial_time))
 
 if __name__ == "__main__":
     main()
