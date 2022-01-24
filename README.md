@@ -30,6 +30,7 @@ Metadata dictionary format:
 }
  
 Image-information(img_info) dictionary format:
+
 {'./sources/input_images_source_1/raccoon-3.jpg': 
 {
 'img': <PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=720x480 at 0x11B20A3E0>, 
