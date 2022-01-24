@@ -1,9 +1,9 @@
 # BladeInsight_challenge
  
-Main script 
+Run main script: 
 
 python3 raccoon_processer.py
 
-Unit testing 
+Run unit testing: 
 
 python3 -m unittest test_raccoon_processer.py
