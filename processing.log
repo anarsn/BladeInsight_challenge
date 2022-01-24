@@ -124,3 +124,380 @@
 2022-01-23 22:28:59,419 class_undefined crop_labels No extra information Log: Cropping Lables
 2022-01-23 22:28:59,505 class_undefined add_padding No extra information Log: Adding padding
 2022-01-23 22:28:59,555 class_undefined save_images No extra information Log: Saving images
+2022-01-23 22:47:00,830 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 22:47:00,833 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 22:47:00,834 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 22:47:00,849 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 22:47:00,849 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 22:47:00,849 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 22:47:00,849 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 22:47:01,226 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 22:47:01,239 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 22:47:01,421 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 22:47:01,512 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 22:47:01,560 class_undefined save_images No extra information Log: Saving images
+2022-01-23 22:48:48,825 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 22:48:48,829 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 22:48:48,831 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 22:48:48,844 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 22:48:48,844 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 22:48:48,844 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 22:48:48,844 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 22:48:49,202 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 22:48:49,216 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 22:48:49,359 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 22:48:49,457 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 22:48:49,512 class_undefined save_images No extra information Log: Saving images
+2022-01-23 22:49:37,558 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 22:49:37,562 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 22:49:37,563 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 22:49:37,575 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 22:49:37,576 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 22:49:37,576 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 22:49:37,576 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 22:49:37,898 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 22:49:37,912 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 22:49:38,055 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 22:49:38,143 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 22:49:38,198 class_undefined save_images No extra information Log: Saving images
+2022-01-23 22:50:51,525 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 22:50:51,528 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 22:50:51,529 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 22:50:51,540 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 22:50:51,540 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 22:50:51,541 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 22:50:51,541 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 22:50:51,870 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 22:50:51,880 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 22:50:52,014 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 22:50:52,098 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 22:50:52,157 class_undefined save_images No extra information Log: Saving images
+2022-01-23 22:52:23,838 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 22:52:23,861 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 22:52:23,866 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 22:52:23,900 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 22:52:23,900 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 22:52:23,900 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 22:52:23,900 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 22:52:24,266 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 22:52:24,282 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 22:52:24,415 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 22:52:24,507 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 22:52:24,557 class_undefined save_images No extra information Log: Saving images
+2022-01-23 22:54:29,198 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 22:54:29,200 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 22:54:29,202 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 22:54:29,214 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 22:54:29,214 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 22:54:29,214 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 22:54:29,214 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 22:54:29,546 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 22:54:29,556 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 22:54:29,680 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 22:54:29,770 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 22:54:29,821 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:13:53,533 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 23:13:53,537 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 23:13:53,538 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 23:13:53,551 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 23:13:53,551 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 23:13:53,552 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 23:13:53,552 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 23:13:53,919 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 23:13:53,932 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 23:13:54,071 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 23:13:54,160 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 23:13:54,211 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:29:51,535 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 23:29:51,539 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 23:29:51,540 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 23:29:51,554 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 23:29:51,555 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 23:29:51,555 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 23:29:51,555 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 23:29:51,931 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 23:29:51,943 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 23:29:52,087 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 23:29:52,176 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 23:29:52,227 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:30:51,899 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 23:30:51,903 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 23:30:51,904 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 23:30:51,916 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 23:30:51,916 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 23:30:51,917 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 23:30:51,917 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 23:30:52,294 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 23:30:52,307 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 23:30:52,424 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 23:30:52,511 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 23:30:52,563 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:31:34,787 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 23:31:34,789 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 23:31:34,789 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 23:31:34,802 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 23:31:34,802 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 23:31:34,802 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 23:31:34,802 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 23:31:35,101 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 23:31:35,132 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 23:31:35,274 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 23:31:35,354 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 23:31:35,400 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:34:16,850 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 23:34:16,853 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 23:34:16,854 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 23:34:16,866 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 23:34:16,866 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 23:34:16,866 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 23:34:16,866 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 23:34:17,172 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 23:34:17,181 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 23:34:17,300 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 23:34:17,387 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 23:34:17,436 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:35:29,758 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 23:35:29,763 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 23:35:29,764 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 23:35:29,777 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 23:35:29,777 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 23:35:29,777 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 23:35:29,777 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 23:35:30,146 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 23:35:30,156 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 23:35:30,280 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 23:35:30,364 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 23:35:30,416 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:56:33,229 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 23:56:33,233 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 23:56:33,234 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 23:56:33,248 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 23:56:33,249 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 23:56:33,249 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 23:56:33,249 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 23:56:33,725 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 23:56:33,735 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 23:56:33,846 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 23:56:33,933 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 23:56:33,982 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:56:34,016 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-23 23:57:09,081 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 23:57:09,085 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 23:57:09,086 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 23:57:09,098 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 23:57:09,099 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 23:57:09,099 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 23:57:09,099 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 23:57:09,449 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 23:57:09,461 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 23:57:09,602 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 23:57:09,688 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 23:57:09,743 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:57:09,786 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-23 23:57:53,792 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-23 23:57:53,797 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-23 23:57:53,798 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-23 23:57:53,807 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-23 23:57:53,808 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-23 23:57:53,808 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-23 23:57:53,808 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-23 23:57:54,076 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-23 23:57:54,080 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-23 23:57:54,177 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-23 23:57:54,264 class_undefined add_padding No extra information Log: Adding padding
+2022-01-23 23:57:54,321 class_undefined save_images No extra information Log: Saving images
+2022-01-23 23:57:54,358 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:03:05,859 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:03:05,864 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:03:05,865 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:03:05,876 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:03:05,876 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:03:05,876 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:03:05,876 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:03:06,225 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:03:06,236 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:03:06,358 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:03:06,454 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:03:06,505 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:03:06,541 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:04:42,655 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:04:42,662 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:04:42,663 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:04:42,677 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:04:42,677 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:04:42,677 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:04:42,677 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:04:43,054 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:04:43,067 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:04:43,211 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:04:43,301 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:04:43,356 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:04:43,391 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:05:12,920 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:05:12,923 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:05:12,924 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:05:12,942 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:05:12,943 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:05:12,943 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:05:12,943 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:05:13,261 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:05:13,269 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:05:13,391 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:05:13,475 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:05:13,525 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:05:13,558 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:06:33,201 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:06:33,204 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:06:33,205 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:06:33,218 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:06:33,218 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:06:33,218 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:06:33,218 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:06:33,565 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:06:33,578 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:06:33,686 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:06:33,771 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:06:33,824 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:06:33,856 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:07:31,800 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:07:31,805 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:07:31,806 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:07:31,819 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:07:31,819 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:07:31,819 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:07:31,819 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:07:32,120 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:07:32,133 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:07:32,274 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:07:32,370 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:07:32,424 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:07:32,467 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:08:45,996 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:08:45,999 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:08:46,000 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:08:46,014 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:08:46,014 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:08:46,014 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:08:46,014 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:08:46,347 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:08:46,358 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:08:46,488 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:08:46,576 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:08:46,634 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:08:46,679 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:09:14,003 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:09:14,006 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:09:14,007 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:09:14,017 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:09:14,017 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:09:14,018 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:09:14,018 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:09:14,305 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:09:14,314 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:09:14,430 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:09:14,516 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:09:14,565 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:09:14,599 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:14:41,428 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:14:41,430 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:14:41,432 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:14:41,449 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:14:41,449 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:14:41,449 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:14:41,449 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:14:41,812 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:14:41,819 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:14:41,958 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:14:42,047 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:14:42,098 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:14:42,136 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:21:37,740 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:21:37,743 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:21:37,744 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:21:37,760 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:21:37,760 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:21:37,760 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:21:37,760 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:21:38,074 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:21:38,082 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:21:38,220 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:21:38,309 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:21:38,363 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:21:38,395 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:25:08,129 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:25:08,132 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:25:08,133 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:25:08,147 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:25:08,147 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:25:08,147 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:25:08,147 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:25:08,425 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:25:08,434 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:25:08,562 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:25:08,644 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:25:08,693 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:25:08,854 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:29:06,458 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:29:06,461 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:29:06,462 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:29:06,480 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:29:06,485 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:29:06,485 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:29:06,485 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:29:06,813 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:29:06,819 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:29:06,947 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:29:07,030 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:29:07,083 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:29:07,247 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 00:29:57,984 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 00:29:57,984 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 00:29:57,984 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 00:29:57,989 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 00:29:57,990 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 00:29:57,990 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 00:29:57,990 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 00:29:58,237 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 00:29:58,240 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 00:29:58,319 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 00:29:58,404 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 00:29:58,464 class_undefined save_images No extra information Log: Saving images
+2022-01-24 00:29:58,641 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 01:19:18,440 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 01:19:18,442 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 01:19:18,443 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 01:19:18,454 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 01:19:18,454 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 01:19:18,455 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 01:19:18,455 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 01:19:18,829 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 01:19:18,839 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 01:19:18,950 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 01:19:19,038 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 01:19:19,094 class_undefined save_images No extra information Log: Saving images
+2022-01-24 01:19:19,172 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 01:28:59,949 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 01:28:59,951 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 01:28:59,952 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 01:28:59,963 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 01:28:59,964 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 01:28:59,965 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 01:28:59,966 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 01:29:00,290 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 01:29:00,298 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 01:29:00,423 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 01:29:00,509 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 01:29:00,572 class_undefined save_images No extra information Log: Saving images
+2022-01-24 01:29:00,609 class_undefined sliding_window No extra information Log: Showing sliding windows
+2022-01-24 01:30:36,780 class_undefined process_metadata No extra information Log: Processing Metadata
+2022-01-24 01:30:36,781 class_undefined process_sources No extra information Log: Processing Source 1
+2022-01-24 01:30:36,781 class_undefined process_sources No extra information Log: Processing Source 3
+2022-01-24 01:30:36,786 class_undefined process_sources No extra information Log: Processing Source 2
+2022-01-24 01:30:36,786 class_undefined label_perc No extra information Log: Calculating percentage of the total area of the image occupied by labels
+2022-01-24 01:30:36,786 class_undefined width_to_height No extra information Log: Calculating label width-to-height ratio of all the labels
+2022-01-24 01:30:36,786 class_undefined plot_distribution No extra information Log: Plot the distribution of the output
+2022-01-24 01:30:37,034 class_undefined save_metadata No extra information Log: Saving Metadata
+2022-01-24 01:30:37,037 class_undefined draw_labels No extra information Log: Drawing Lables
+2022-01-24 01:30:37,115 class_undefined crop_labels No extra information Log: Cropping Lables
+2022-01-24 01:30:37,198 class_undefined add_padding No extra information Log: Adding padding
+2022-01-24 01:30:37,247 class_undefined save_images No extra information Log: Saving images
