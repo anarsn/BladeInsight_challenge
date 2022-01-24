@@ -44,7 +44,7 @@ def process_source1(metadata, data):
                 "label": "Raccoon",
                 "width_to_height": 0 
                 })
-        # else creat a new pair key value in dict for image and labels    
+        # else create a new pair key value in dict for image and labels    
         else:
             metadata[entry['filename']] = {
                 "path": entry['folder'] + entry['filename'],
@@ -82,7 +82,7 @@ def process_source2(metadata, data):
                 "label": "Raccoon",
                 "width_to_height": 0 
                 })
-        # else creat a new pair key value in dict for image and labels    
+        # else create a new pair key value in dict for image and labels    
         else:
             metadata[filename] = {
                 "path": entry['path'],
@@ -128,7 +128,7 @@ def process_source3(metadata, data):
                 "label": "Raccoon",
                 "width_to_height": 0 
                 })
-        # else creat a new pair key value in dict for image and labels      
+        # else create a new pair key value in dict for image and labels      
         else:
             metadata[filename] = {
                 "path": path,
@@ -164,6 +164,7 @@ def process_metadata():
     # process all existing sources
     for source in sources:
         json_path = source+'/labels.json'
+        #fetch source type from folder name
         source_type = int(re.search(r'\d+', source).group())
         with open(json_path) as json_file:
             data = json.load(json_file)
@@ -250,8 +251,8 @@ def merge_orgimg_info(config_file_path):
     return img_info
     
 def draw_labels(img_info):
-    logger.info('Log: %s', 'Drawing Lables', extra=default|{'function': 'draw_labels'})
-    # for each image draw the corresponding labels (info in dict)
+    logger.info('Log: %s', 'Drawing Labels', extra=default|{'function': 'draw_labels'})
+    # for each image draw the corresponding labels (using info in dict img_info)
     for path in img_info:
         image = cv2.imread(path)
         info = img_info[path]['info']
@@ -266,7 +267,7 @@ def draw_labels(img_info):
         img_info[path]['img_draw'] = Image.fromarray(img)
 
 def crop_labels(img_info):
-    logger.info('Log: %s', 'Cropping Lables', extra=default|{'function': 'crop_labels'})
+    logger.info('Log: %s', 'Cropping Labels', extra=default|{'function': 'crop_labels'})
     # for each image crop the corresponding labels (info in dict)
     for path in img_info:
         im = Image.open(path)
@@ -300,8 +301,8 @@ def add_padding(img_info,config_file_path):
             img_aux.thumbnail((new_width, new_height), Image.ANTIALIAS)
             width, height = img_aux.size   
             # center image in top left corner      
-            left = int( (new_width/2)- width/2)
-            top = int( (new_height/2) - height/2)
+            left = int( new_width/2 - width/2)
+            top = int( new_height/2 - height/2)
             # black square
             result = Image.new(img_aux.mode, (new_width, new_height), (0, 0, 0))
     
