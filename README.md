@@ -28,7 +28,7 @@ Metadata dictionary format:
     }
 ]
 }
-
+ 
 Image-information(img_info) dictionary format:
 {'./sources/input_images_source_1/raccoon-3.jpg': 
 {
